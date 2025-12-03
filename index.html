@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Niko Apostolou | Analytics & Marketing Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="page">
+    <header class="nav">
+      <div class="logo">NA</div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Hi, I’m <span class="accent">Niko Apostolou</span>.</h1>
+          <h2>Data & Marketing Analytics • Attribution • Strategy.</h2>
+          <p class="hero-body">
+            I build data-driven marketing systems: media mix models, attribution,
+            and analytics pipelines that translate raw data into revenue-level impact.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View projects</a>
+            <a href="#contact" class="btn ghost">Let’s connect</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <p class="hero-stat-label">Current Focus</p>
+          <p class="hero-stat-main">Marketing analytics, MMM & attribution</p>
+          <div class="hero-stat-row">
+            <div>
+              <p class="hero-stat-number">Python · SQL · GA4</p>
+              <p class="hero-stat-sub">Tooling</p>
+            </div>
+            <div>
+              <p class="hero-stat-number">Media ROI · Experimentation</p>
+              <p class="hero-stat-sub">Strengths</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <h3 class="section-title">About</h3>
+        <div class="section-grid">
+          <p>
+            I’m a data-driven marketer and analyst with experience building
+            analytics pipelines, attribution models, and performance dashboards
+            for brands across streaming, retail, and financial services.
+          </p>
+          <p>
+            My work sits at the intersection of <span class="accent">business strategy</span>
+            and <span class="accent">technical execution</span> — connecting data from
+            platforms like GA4, Google Ads, and CRM tools into models that answer
+            real questions: “What should we spend, where, and why?”
+          </p>
+        </div>
+
+        <div class="chip-row">
+          <span class="chip">Python (pandas, scikit-learn)</span>
+          <span class="chip">SQL</span>
+          <span class="chip">GA4 & Google Ads</span>
+          <span class="chip">Looker Studio / BI</span>
+          <span class="chip">MMM & Attribution</span>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <h3 class="section-title">Selected Projects</h3>
+        <div class="cards">
+          <!-- Project 1 -->
+          <article class="card">
+            <p class="card-tag">Marketing Mix Modeling</p>
+            <h4 class="card-title">Media Mix Model with Diminishing Returns & Adstock</h4>
+            <p class="card-body">
+              Built a marketing mix model in Python to quantify the impact of paid search,
+              paid social, display, and email on conversions. Included channel-level
+              saturation curves and adstock to capture carryover effects.
+            </p>
+            <ul class="card-list">
+              <li>Estimated channel ROI and marginal ROI for budget reallocation.</li>
+              <li>Simulated “what-if” spend scenarios for future planning.</li>
+              <li>Stack: Python, pandas, statsmodels, Matplotlib.</li>
+            </ul>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card">
+            <p class="card-tag">Attribution · NLP</p>
+            <h4 class="card-title">URL Similarity Model for Broken Ad Destinations</h4>
+            <p class="card-body">
+              Developed an NLP-based similarity model to automatically suggest
+              replacement URLs when ad landing pages returned “404 – Page Not Found”,
+              protecting paid campaigns from wasted spend.
+            </p>
+            <ul class="card-list">
+              <li>Used embeddings + cosine similarity to match to the closest live page.</li>
+              <li>Deployed as a pipeline to scan URLs and flag risky destinations.</li>
+              <li>Reduced potential lost spend by dynamically routing traffic.</li>
+            </ul>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card">
+            <p class="card-tag">Analytics Infrastructure</p>
+            <h4 class="card-title">Cross-Source Marketing Data Pipeline</h4>
+            <p class="card-body">
+              Designed a pipeline to unify GA4, Google Ads, and Search Console
+              into a single, analysis-ready model for reporting and attribution.
+            </p>
+            <ul class="card-list">
+              <li>Standardized campaign naming, UTM structure, and vendor tagging.</li>
+              <li>Joined multi-touch data into channel and campaign-level dashboards.</li>
+              <li>Exposed insights via Looker Studio for marketing stakeholders.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section">
+        <h3 class="section-title">Experience</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-title">Data / Marketing Analytics</p>
+              <p class="timeline-subtitle">Project & client work</p>
+              <p class="timeline-body">
+                Worked across campaigns and analytics projects focusing on budget
+                allocation, funnel analysis, and performance optimization. Partnered
+                with marketing teams to translate questions into data-driven answers.
+              </p>
+            </div>
+          </div>
+          <!-- Add more timeline items as you gain roles -->
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <h3 class="section-title">Contact</h3>
+        <p class="section-intro">
+          Open to roles in analytics, marketing science, and data-driven strategy.
+        </p>
+        <div class="contact-row">
+          <a href="mailto:nikoapostolou21@gmail.com" class="btn primary">Email me</a>
+          <a href="https://www.linkedin.com/in/nikoapostolou" target="_blank" class="btn ghost">
+            View LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Niko Apostolou · Built with GitHub Pages</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
